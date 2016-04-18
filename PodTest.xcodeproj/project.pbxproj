@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B5872D21CC46D3D0094E0C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5872D11CC46D3D0094E0C8 /* main.m */; };
+		1B5872DA1CC46D4E0094E0C8 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5872D91CC46D4E0094E0C8 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1B5872CE1CC46D3D0094E0C8 /* PodTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PodTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5872D11CC46D3D0094E0C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B5872D81CC46D4E0094E0C8 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		1B5872D91CC46D4E0094E0C8 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				1B5872D11CC46D3D0094E0C8 /* main.m */,
+				1B5872D81CC46D4E0094E0C8 /* Test.h */,
+				1B5872D91CC46D4E0094E0C8 /* Test.m */,
 			);
 			path = PodTest;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5872D21CC46D3D0094E0C8 /* main.m in Sources */,
+				1B5872DA1CC46D4E0094E0C8 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
