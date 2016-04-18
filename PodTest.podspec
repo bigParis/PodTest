@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "~/Desktop/git/MyDemos/PodTest" }
+  s.source       = { :git => "https://github.com/bigParis/PodTest.git" }
   s.source_files  = "PodTest/Test.{h,m}"
   s.requires_arc = true
 end
